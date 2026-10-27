@@ -1,0 +1,125 @@
+
+# ==============================
+# Dependencies
+# ==============================
+node_modules/
+.pnp/
+.pnp.*
+.yarn/*
+!.yarn/patches/
+!.yarn/plugins/
+!.yarn/releases/
+!.yarn/versions/
+
+# ==============================
+# Build output
+# ==============================
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.vercel/
+coverage/
+*.tsbuildinfo
+
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Secrets and credentials
+*.pem
+*.key
+*.p12
+*.pfx
+service-account*.json
+serviceAccount*.json
+credentials.json
+secrets.json
+
+# ==============================
+# Supabase
+# ==============================
+# Keep migrations, config.toml, seed files, and Edge Functions in Git.
+# Ignore local Supabase runtime data only.
+supabase/.temp/
+supabase/.branches/
+
+# ==============================
+# Logs and debugging
+# ==============================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+vite-debug.log*
+debug.log*
+
+# ==============================
+# Testing
+# ==============================
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+blob-report/
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# ==============================
+# IDEs and editors
+# ==============================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ==============================
+# Temporary files
+# ==============================
+tmp/
+temp/
+.cache/
+.parcel-cache/
+.turbo/
+
+# ==============================
+# Local databases and backups
+# ==============================
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+*.backup
+
+# ==============================
+# Deployment artifacts
+# ==============================
+.vercel
+.netlify/
+
+# ==============================
+# Optional package-manager caches
+# ==============================
+.npm/
+.eslintcache
+.stylelintcache
